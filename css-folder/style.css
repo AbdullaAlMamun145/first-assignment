@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+	transition: all 0.3s ease;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/* start header section */
+.nav-container{
+background-color: #ce8d9b;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 850px;
+}
+.nav-title{
+    width:700px;
+    height: 500px;
+    margin-top: 30px;
+    padding: 150px;
+}
+.nav-img{
+    width: 600px;
+    height: 800px;
+}
+.nav-bar{
+    font-size: 43px;
+    font-weight: 800;
+    padding: 10px;
+}
+.text-description{
+    font-size: 18px;
+    line-height: normal;
+    text-align: justify;
+    padding: 10px;
+}
+.btn{
+    padding: 15px;
+    background-color: #E55473;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* end header section */
+
+ /* start banner section */
+.main-banner{
+margin-top: 100px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.banner-title{
+margin: 0 auto;
+text-align: center;
+width: 600px;
+}
+section{
+    margin-bottom: 100px;
+}
+.banner-img {
+   background-color: #ce8d9b;
+width: 460px;
+height: 600px;
+
+border-radius: 200px 200px 0px 0px;
+}
+.img-style{
+    width: 310px;
+    height: 420px;
+    margin: 0px auto;
+    display: block;
+}
+.img-degin{
+    margin-top: 100px;
+}
+.img-title{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+ /* end banner section */
+/* shop style start */
+
+.shop-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ce8d9b;
+    padding: 100px;
+}
+span{
+    color: #E55473;
+}
+
+/* shop style end */
+
+/* flower style start */
+.flower-degin{
+    width: 340px;
+    height: 390px;
+    background-color: #111;
+}
+.flower-style{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* flower style end */
+
+
+
+
+
